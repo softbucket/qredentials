@@ -84,4 +84,9 @@ class HomeController extends Controller {
 		return view('contact', array('response' => ""));
 	}
 
+	public function no_sql()
+	{
+		return "Laravel is working if you see this.";
+	}
+
 }
