@@ -1,0 +1,32 @@
+#qr_code_content > *
+{
+  font-family:Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+#qr_code_content
+{
+	width: calc(100% - 25em);
+	float:right;
+}
+
+#qr_code_contentholder
+{
+	margin-left: 6em;
+}
+
+/* mobile phone */
+@media all and (max-width: 768px)  {
+
+	#qr_code_content
+	{
+		height:auto;
+		float:left;
+		width:95%;
+	}
+
+	#qr_code_contentholder
+	{
+		margin-left: 1em;
+	}
+}

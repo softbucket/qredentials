@@ -1,0 +1,60 @@
+ #div_navigation_container, #context_side_menu
+{
+	display: none;
+}
+
+#div_front_page
+{
+	position: fixed;
+	height:6em;
+}
+
+#qrcodelogo
+{
+	top:-60px;
+	height:6em;
+	width: auto;
+
+}
+#qr
+{
+	margin-left: -1.3em;
+	top: -1.11em;
+	font-size: 5em;
+}
+
+.qr_code_individual
+{
+	width:100%;
+}
+
+.qr_code_individual_img
+{
+	width: calc(100% - 3em);
+}
+
+.qr_code_individual button
+{
+	height:4em;
+	width: auto;
+}
+
+.close_button_img
+{
+	height:4em;
+	width: auto;
+}
+
+.close_button_div
+{
+	width: 100%;
+}
+
+.get_info_button
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	height: 4em;
+	font-size: 1em;
+}

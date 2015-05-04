@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+#div_navigation_container
+{
+}
+
+#div_navigation_container:after
+{
+	content: ".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+#div_navigation_container *
+{
+	margin: 0px;
+}
+
+#div_navigation_container a
+{
+	font-size:2.5em;
+	text-align:center;
+	text-decoration: none;
+}
+
+#div_navigation_container *:hover
+{
+	background-color:#ff4422;
+}
+
+#div_navigation_container a
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#div_navigation_container a{
+     color: inherit;
+}
+
+#div_navigation_container a:visited{
+     color: inherit;
+}
+
+/* small desktop */
+@media all and (max-width: 1200px) {
+}
+
+/* tablet */
+@media all and (min-width: 768px) {
+	#div_navigation_container
+	{
+		font-family: 'Roboto', sans-serif;
+		width:100%; 
+		background-color:#FF981F;
+		text-align:center;
+	}
+	#div_navigation_filler
+	{
+		display: inline-block;
+		width: 1vw;
+	}
+	#div_navigation_container a
+	{
+		display: inline-block;
+		vertical-align: middle;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
+	}
+
+	#div_navigation_container p
+	{
+		vertical-align: middle;
+		float:right;
+	}
+
+	#div_navigation_container a:first-child:nth-last-child(0)
+	{
+		/* 1 item */
+		width: 100vw;
+	}
+
+	#div_navigation_container a:first-child:nth-last-child(1)
+	{
+		/* 2 items */
+		width: 15vw;
+	}
+
+	#div_navigation_container a:first-child:nth-last-child(2)
+	{
+		/* 3 items */
+		width: 10vw;
+	}
+
+	#div_navigation_container a:first-child:nth-last-child(3)
+	{
+		/* 4 item s*/
+		width: 10vw;
+	}
+	#menulinkspan
+	{
+		display: none;
+	}
+}
+
+/* mobile phone */
+@media all and (max-width: 768px) {
+	#menulinkspan
+	{
+		width: 100%;
+	}
+	#menulogo
+	{
+		width:1em;
+		height: auto;
+		padding-top: 0.2em;
+	}
+	#div_navigation_container
+	{
+		font-family: 'Roboto', sans-serif;
+		width:100%; 
+		background-color:#FF981F;
+		text-align:center;
+	}
+
+    #edentials
+    {
+    	display: none;
+    }
+
+	#div_navigation_container a
+	{
+		/* 2 items */
+		border-top: thin solid #e5881b;
+		display: inline-block;
+		width: 100%;
+		margin:0px;
+		padding-top: 0.4em;
+		padding-bottom: 0.4em;
+	}
+	#div_navigation_filler
+	{
+		display: none;
+	}
+}
